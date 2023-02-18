@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOGIN</title>
+  <link rel="stylesheet" href="css.css">
+<style>
+body {
+  background: linear-gradient(130deg, rgb(248, 248, 248) 0%, rgb(37, 0, 250) 60%);
+  font-family: "Roboto", sans-serif;      
+}
+</style>
+</head>
+<body style="background: linear-gradient(130deg, #000000, #FFFFFF)">
+    <div class="halaman-login">
+        <div class="form">
+          <hr>
+          <form id="login" class="login-form">
+          <img src="https://www.pngkey.com/png/full/367-3670351_access-login-icon.png">
+          <h1>LOGIN</h1>
+          <hr><br>
+            <input type="text" placeholder="Username" id="username"/>
+            <input type="password" placeholder="Password" id="password"/>
+            <!-- <input type="color" id="warna1" oninput="tes()"/> -->
+            <!-- <input type="color" id="warna2" oninput="tes()"/> -->
+            <div class="forgot">
+            <a href="forgot.html">Lupa Password?</a>
+            </div> 
+            <input type="button" value="LOGIN" onclick="login()">
+            <p class="pesan">Tidak punya akun? <a href="register.html">Buat akun sekarang.</a></p>
+          </form>
+        </div>
+      </div>
+  <script src="main.js"></script>
+</body>
+</html>
